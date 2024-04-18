@@ -61,7 +61,7 @@ if opcion == 1:
 elif opcion ==2:
     print("\n Conversor de palabra a número. \n")
     opcion_dos = input("¿Cuál es la palabra que deseas convertir a nro?: ")
-    
+    opcion_dos = opcion_dos.lower()
     if opcion_dos == "uno":
         print("El nro es '1'")
     elif opcion_dos == "dos":
