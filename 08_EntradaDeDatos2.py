@@ -1,3 +1,13 @@
+print("Python desde cero en Español")
+#--------------------------------------------------------------
+print("Author @RoxDev")
+print ("Puedes apoyar mis proyectos en:")
+
+base_url = "https://paypal.me/belakiss?country.x=AR&locale.x=es_XC"
+print(base_url)
+#--------------------------------------------------------------
+print("Entrada de Datos desde el teclado: ")
+#--------------------------------------------------------------
 #NOTE - Vamos solicitar el nombre del usuario
 nombre = input("¿Cuál es tu nombre?: ")
 print("Bienvenido/a " + nombre + ", vamos a realizar una suma. ")
